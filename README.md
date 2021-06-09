@@ -39,5 +39,19 @@ For first 3 column of Table3, filtering.py script can be run with desired task b
 For Zinc dataset result, Zinc12k.py script is needed for all methods. For Mnist75 result mnist75.py script is needed all methods except GNML3. For GNNML3, first you should run prepareMnist_gnnml3_tf.py for preprocessing step. It saves the preprocessed data into file. Then mnist75_gnnml3_tf.py should be run.
 
 ### Table-5
-Each column can be obtained by mutag.py, enzymes.py, enzymes_contfeat.py, proteins.py and ptc.py respectively. Just GNNML3 result for 3rd column can also be obtained by tensorflow implementation by running enzymes_contfeats_gnnml3_tf.py 
+Each column can be obtained by mutag.py, enzymes.py, enzymes_contfeat.py, proteins.py and ptc.py respectively. Just GNNML3 result for 3rd column can also be obtained by tensorflow implementation by using enzymes_contfeats_gnnml3_tf.py 
 
+## Citation
+Please cite this paper if you use codes and/or datasets in your work,
+
+	@inproceedings{
+	balcilar2021breaking,
+	title={Breaking the Limits of Message Passing Graph Neural Networks},
+	author={Muhammet Balcilar and Pierre H{\'e}roux and Benoit Ga{\"u}z{\`e}re and Pascal Vasseur and S{\'e}bastien Adam and Paul Honeine},
+	booktitle={Proceedings of the 38th International Conference on Machine Learning (ICML)},
+	year={2021}	
+	}
+
+  
+## License
+MIT License
