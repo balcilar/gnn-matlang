@@ -42,7 +42,7 @@ For Zinc dataset result, Zinc12k.py script is needed for all methods. For Mnist7
 Each column can be obtained by mutag.py, enzymes.py, enzymes_contfeat.py, proteins.py and ptc.py respectively. Just GNNML3 result for 3rd column can also be obtained by tensorflow implementation by using enzymes_contfeats_gnnml3_tf.py 
 
 ## Citation
-Please cite this paper if you use codes and/or datasets in your work,
+Please cite this paper if you find it usefull.
 
 	@inproceedings{
 	balcilar2021breaking,
