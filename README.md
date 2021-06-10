@@ -3,7 +3,7 @@
 This repository consists of codes of ["Breaking the Limits of Message Passing Graph Neural Networks"](https://arxiv.org/pdf/2106.04319.pdf) paper published in ICML2021.
 
 ## Requirements
-These libraries' versions are not strictly needed. But these are the configurations in our test machine. Also, all dependencies of pytorch-geometric are needed.
+These libraries' versions are not strictly needed. But these are the configurations of our test machine. Also, all dependencies of pytorch-geometric are needed.
 - Python==3.8.5
 - pytorch==1.5.1
 - pytorch_geometric==1.6.1
