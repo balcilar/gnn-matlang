@@ -23,7 +23,7 @@ For tensorflow codes our test environment has following libraries' versions
 
 # Reproducing Results
 
-In order to easy debugging and more readabilty of the codes, we hardcoded hyperparameters of each model and also selection of model out of MLP, GCN, GAT, GIN, ChebNet, PPGN and our proposals named GNNML1 and GNNML3 in each problem set's concerned script file separately. Desired model and its hyperparameter's can be changed according to your selection. Note all provided scripts (except isomorphism test codes) are for single run. To get given statistics in the paper, they should be run many times under different random seed.
+In order to easy debugging and readability, we hardcoded hyperparameters of each model and also selection of model out of MLP, GCN, GAT, GIN, ChebNet, PPGN and our proposals named GNNML1 and GNNML3 in each problem set concerned script file separately. Desired model and its hyper-parameters can be changed according to your selection. Note all provided scripts (except isomorphism test codes) are for single run. To get given statistics in the paper, they should be run many times under different random seeds.
 
 ### Table-1
 
@@ -36,7 +36,7 @@ counting.py is for result of Table2. For each column, *ntask* variable in Line 3
 For first 3 column of Table3, filtering.py script can be run with desired task by selection of *ntask* in Line 302 out of 0,1 or 2. Last colmun's result can be taken using freqclass.py script. 
 
 ### Table-4
-For Zinc dataset result, Zinc12k.py script is needed for all methods. For Mnist75 result mnist75.py script is needed all methods except GNML3. For GNNML3, first you should run prepareMnist_gnnml3_tf.py for preprocessing step. It saves the preprocessed data into file. Then mnist75_gnnml3_tf.py should be run.
+For Zinc dataset result, Zinc12k.py script is needed for all methods. For Mnist75 result mnist75.py script is needed for all methods except GNML3. For GNNML3, first you should run prepareMnist_gnnml3_tf.py for preprocessing step. It saves the preprocessed data into file. Then mnist75_gnnml3_tf.py should be run.
 
 ### Table-5
 Each column can be obtained by mutag.py, enzymes.py, enzymes_contfeat.py, proteins.py and ptc.py respectively. Just GNNML3 result for 3rd column can also be obtained by tensorflow implementation by using enzymes_contfeats_gnnml3_tf.py 
